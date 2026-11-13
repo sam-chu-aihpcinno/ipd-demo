@@ -1,0 +1,23 @@
+{
+	"nav": {
+		"group": "DH IPC AI Tender 2026",
+		"handwashing": "Handwashing technique",
+		"ppe": "PPE donning/doffing",
+		"n95": "N95 fit evaluation"
+	},
+	"home": {
+		"handwashingCard": {
+			"sectionBadge": "DH IPC §2.1",
+			"topicBadge": "Handwashing",
+			"title": "WHO 6-step technique check",
+			"description": "Webcam → MediaPipe Hands → rule-based WHO 6-step detector. Live step checklist that turns green per step, duration tracking, end-of-session summary, deliberate-skip catch.",
+			"bullets": {
+				"landmarks": "Six WHO steps detected from 42 hand landmarks per frame",
+				"smoothing": "15-frame deque smoothing (Quiñones et al. 2025 method)",
+				"duration": "Total wash duration tracked; flags below WHO 40s minimum",
+				"clientSide": "Runs entirely client-side — no backend, no network calls"
+			},
+			"cta": "Run handwashing demo"
+		}
+	}
+}
